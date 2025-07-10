@@ -43,9 +43,19 @@ Fig. 2d shows the generation mix (based on actual output), and Fig. 2e shows the
 Under the above power flow conditions, the stress on the transmission network is shown in Fig. 3. The color of each transmission line indicates the magnitude of power flow, while the arrows indicate its direction.
 
 
+<img width="2459" height="2115" alt="Energy_mix" src="https://github.com/user-attachments/assets/ed807e48-cbbf-4dd6-b3a8-4caab77ac587" />
+
+
+<img width="2144" height="1202" alt="Power_flow" src="https://github.com/user-attachments/assets/0cb0a3ae-b09b-448a-ab2b-24a6e036aad4" />
+
+
 # Time-Domain Simulation with Disturbances
 
 This code sets six initial disturbances on the Iberian Peninsula, with the locations and magnitudes based on reference [5]. The disturbance details are listed in Table 1. We selected four buses to observe the simulated April 28 blackout. Their locations are shown in Fig. 4a. Fig. 4b shows the frequency responses at these observation buses under disturbances matching the magnitude of the April 28 blackout. Fig. 4c shows the responses under disturbances at the same locations but with one-tenth of the original magnitude.
+
+<img width="606" height="270" alt="image" src="https://github.com/user-attachments/assets/5dd2c363-db3b-43b7-94cf-65334b836729" />
+
+
 
 
 # Usage
