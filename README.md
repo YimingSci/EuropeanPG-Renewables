@@ -4,7 +4,7 @@
 
 ## Model Description
 
-This code is designed to analyze the dynamic stability of the European power grid. The base grid model is adapted from [1], while data for wind and solar power plants is sourced from [2]. Auxiliary analysis tools are based on [1] and [7].
+This code is designed to analyze the dynamic stability of the European power grid. The base grid model is adapted from [1], while data for wind and solar power plants is sourced from [2]. Auxiliary analysis tools are based on [1] and [3].
 
 Wind and solar generation data across Portugal, Spain, and France (collectively referred to as PSF) used in this model are based on information available up to 2024.
 
@@ -37,7 +37,7 @@ Figure 1 illustrates the geographical distribution of these wind and solar sou
 
 ## Power Flow
 We pre-adjusted the power flow to match the conditions in the PSF region immediately prior to the blackout on April 28, 2025.
-Figures 2a–2c show the generation and load structures of Portugal [3], Spain [3], and France [4] on that day.
+Figures 2a–2c show the generation and load structures of Portugal [4], Spain [4], and France [5] on that day.
 Figure 2d presents the overall generation mix, while Figure 2e shows the spatial distribution of the load.
 
 Wind and solar generation: 40.53 GW
@@ -46,7 +46,7 @@ Conventional generation: 49.97 GW
 
 Total load: 80.10 GW
 
-
+Under the above power flow conditions, the stress on the transmission network is shown in Fig. 3. The color of each transmission line indicates the magnitude of power flow, while the arrows indicate its direction.
 
 <img width="2459" height="2115" alt="Energy_mix" src="https://github.com/user-attachments/assets/ed807e48-cbbf-4dd6-b3a8-4caab77ac587" />
 
@@ -54,10 +54,10 @@ Total load: 80.10 GW
 <img width="2144" height="1202" alt="Power_flow" src="https://github.com/user-attachments/assets/0cb0a3ae-b09b-448a-ab2b-24a6e036aad4" />
 
 
-## Time-Domain Simulation with Disturbances
+## Dynamic Analysis of the Power Grid
 
-The dynamic behavior of the network is analyzed using the dynamic_analysis.m script.
-This code applies six initial disturbances across the Iberian Peninsula, with their locations and magnitudes derived from reference [5].
+The dynamic behavior of the network is analyzed using the  `Dynamic_analysis.m` script.
+This code applies six initial disturbances across the Iberian Peninsula, with their locations and magnitudes derived from reference [6].
 Details of the disturbances are provided in Table 1.
 
 <img width="606" height="270" alt="image" src="https://github.com/user-attachments/assets/5dd2c363-db3b-43b7-94cf-65334b836729" />
@@ -69,7 +69,7 @@ Details of the disturbances are provided in Table 1.
 
 - `PSF_Renewable.mat` : Power grid data. Compatible with MATPOWER [7].
 
-- `Dynamic_analysis.m` : Code of time-domain simulation.
+- `Dynamic_analysis.m` :  Code of time-domain simulation.
 
 
 
@@ -79,12 +79,14 @@ Details of the disturbances are provided in Table 1.
 
 [2] OpenInfraMap contributors. (2024). OpenInfraMap – Infrastructure map of the world. Retrieved from https://openinframap.org (Accessed: 2025-07-03)
 
-[3] ENTSO-E. (2025, June). Iberian blackout on 28 April 2025. Internal communication.
+[3] Zimmerman, R. D., Murillo-Sánchez, C. E., & Thomas, R. J. (2011). MATPOWER: Steady-State Operations, Planning, and Analysis Tools for Power Systems Research and Education. IEEE Transactions on Power Systems, 26(1), 12–19. https://doi.org/10.1109/TPWRS.2010.2051168
 
-[4] RTE France. eco2mix – Power generation by energy source. https://www.rte-france.com/en/eco2mix/power-generation-energy-source
+[4] ENTSO-E. (2025, June). Iberian blackout on 28 April 2025. Internal communication.
 
-[5] Comité para el Análisis de las Circunstancias que Concurrieron en la Crisis de Electricidad del 28 de Abril de 2025. (2025, June). Versión no confidencial del informe del comité para el análisis de las circunstancias que concurrieron en la crisis de electricidad del 28 de abril de 2025.
+[5] RTE France. eco2mix – Power generation by energy source. https://www.rte-france.com/en/eco2mix/power-generation-energy-source
 
-[6] Rethink of Green Power Grid. 
+[6] Comité para el Análisis de las Circunstancias que Concurrieron en la Crisis de Electricidad del 28 de Abril de 2025. (2025, June). Versión no confidencial del informe del comité para el análisis de las circunstancias que concurrieron en la crisis de electricidad del 28 de abril de 2025.
 
-[7] Zimmerman, R. D., Murillo-Sánchez, C. E., & Thomas, R. J. (2011). MATPOWER: Steady-State Operations, Planning, and Analysis Tools for Power Systems Research and Education. IEEE Transactions on Power Systems, 26(1), 12–19. https://doi.org/10.1109/TPWRS.2010.2051168
+[7] Rethink of Green Power Grid. 
+
+
