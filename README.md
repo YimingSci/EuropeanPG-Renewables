@@ -20,7 +20,7 @@ The power grid dynamics are as follows:
 In the equations, $$M_i$$ denotes the inertia and $$D_i$$ denotes the damping coefficient. For solar and wind units, we use homogenized parameters with $$M_i=0.005$$ and $$D_i=0.001$$. For all other generators, the inertia and damping values are adopted from [1]. 
 The power flow equations of the grid are as follows:
 
-<img width="502"  alt="image" src="https://github.com/user-attachments/assets/5f682f2e-75ef-4305-b138-afe1fdc13ffd" />
+<img width="302"  alt="image" src="https://github.com/user-attachments/assets/5f682f2e-75ef-4305-b138-afe1fdc13ffd" />
 
 
 
@@ -35,7 +35,7 @@ We adopt the transmission system and conventional generation fleet from the mode
 The solar and wind units considered in this model cover the entire PSF region (Portugal, Spain, and France), with data derived from OpenStreetMap [2]. A total of 87 solar units and 19,562 wind units have been integrated into our analysis.
 Figure 1 illustrates the geographical distribution of these wind and solar sources.
 
-<img width="2146" height="1203" alt="Distribution_Reanewable" src="https://github.com/user-attachments/assets/f8d13b92-0334-4e33-9f99-c8a83797e5cb" />
+<img width="1146"  alt="Distribution_Reanewable" src="https://github.com/user-attachments/assets/f8d13b92-0334-4e33-9f99-c8a83797e5cb" />
 
 
 
@@ -52,10 +52,10 @@ Total load: 80.10 GW
 
 Under the above power flow conditions, the stress on the transmission network is shown in Fig. 3. The color of each transmission line indicates the magnitude of power flow, while the arrows indicate its direction.
 
-<img width="2459" height="2115" alt="Energy_mix" src="https://github.com/user-attachments/assets/ed807e48-cbbf-4dd6-b3a8-4caab77ac587" />
+<img width="759" alt="Energy_mix" src="https://github.com/user-attachments/assets/ed807e48-cbbf-4dd6-b3a8-4caab77ac587" />
 
 
-<img width="2144" height="1202" alt="Power_flow" src="https://github.com/user-attachments/assets/0cb0a3ae-b09b-448a-ab2b-24a6e036aad4" />
+<img width="7044"  alt="Power_flow" src="https://github.com/user-attachments/assets/0cb0a3ae-b09b-448a-ab2b-24a6e036aad4" />
 
 
 ## Dynamic Analysis of the Power Grid
@@ -64,7 +64,7 @@ The dynamic behavior of the network is analyzed using the  `Dynamic_analysis.m` 
 This code applies six initial disturbances across the Iberian Peninsula, with their locations and magnitudes derived from reference [6].
 Details of the disturbances are provided in Table 1.
 
-<img width="606" height="270" alt="image" src="https://github.com/user-attachments/assets/5dd2c363-db3b-43b7-94cf-65334b836729" />
+<img width="606"  alt="image" src="https://github.com/user-attachments/assets/5dd2c363-db3b-43b7-94cf-65334b836729" />
 
 
 
