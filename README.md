@@ -30,6 +30,9 @@ Wind and solar power sources:
 ## Wind and solar power sources:
 The newly added solar and wind units cover the entire PSF region, with data derived from OpenStreetMap [2]. A total of 87 solar units and 19, 562 wind units have been integrated into the model. Fig. 1 illustrates the geographical distribution of these added renewable sources.
 
+<img width="2146" height="1203" alt="Distribution_Reanewable" src="https://github.com/user-attachments/assets/f8d13b92-0334-4e33-9f99-c8a83797e5cb" />
+
+
 
 # Power Flow
 
@@ -51,3 +54,11 @@ PSF_Renewable.mat: Power grid data. Compatible with MATPOWER [7].
 Dynamic_analysis.m: Code of time-domain simulation.
 
 
+# Reference
+[1] Tyloo, M., Pagnier, L., & Jacquod, P. (2019). The key player problem in complex oscillator networks and electric power grids: Resistance centralities identify local vulnerabilities. Science Advances, 5(11), eaaw8359. https://doi.org/10.1126/sciadv.aaw8359
+[2] OpenInfraMap contributors. (2024). OpenInfraMap – Infrastructure map of the world. Retrieved from https://openinframap.org (Accessed: 2025-07-03)
+[3] ENTSO-E. (2025, June). Iberian blackout on 28 April 2025. Internal communication.
+[4] RTE France. eco2mix – Power generation by energy source. https://www.rte-france.com/en/eco2mix/power-generation-energy-source
+[5] Comité para el Análisis de las Circunstancias que Concurrieron en la Crisis de Electricidad del 28 de Abril de 2025. (2025, June). Versión no confidencial del informe del comité para el análisis de las circunstancias que concurrieron en la crisis de electricidad del 28 de abril de 2025.
+[6] Rethink of Green Power Grid. [Details to be completed by the authors.]
+[7] Zimmerman, R. D., Murillo-Sánchez, C. E., & Thomas, R. J. (2011). MATPOWER: Steady-State Operations, Planning, and Analysis Tools for Power Systems Research and Education. IEEE Transactions on Power Systems, 26(1), 12–19. https://doi.org/10.1109/TPWRS.2010.2051168
