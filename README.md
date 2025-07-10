@@ -10,7 +10,8 @@ Wind and solar generation data across Portugal, Spain, and France (collectively 
 
 The power grid dynamics are as follows: 
 
-<img width="9.28" height="1.03" alt="image" src="https://github.com/user-attachments/assets/d08b51c4-6fb2-4c4c-a247-893cf6db4d7c" />
+<img width="9.28" alt="image" src="https://github.com/user-attachments/assets/d08b51c4-6fb2-4c4c-a247-893cf6db4d7c" />
+
 
 <img width="738" height="96" alt="image" src="https://github.com/user-attachments/assets/330aeab2-7dee-4999-9e9e-9e303ae6af13" />
 
@@ -18,7 +19,9 @@ The power grid dynamics are as follows:
 In the equations, $$M_i$$ denotes the inertia and $$D_i$$ denotes the damping coefficient. For solar and wind units, we use homogenized parameters with $$M_i=0.005$$ and $$D_i=0.001$$. For all other generators, the inertia and damping values are adopted from [1]. 
 The power flow equations of the grid are as follows:
 
-<img width="502" height="123" alt="image" src="https://github.com/user-attachments/assets/5f682f2e-75ef-4305-b138-afe1fdc13ffd" />
+<img width="502"  alt="image" src="https://github.com/user-attachments/assets/5f682f2e-75ef-4305-b138-afe1fdc13ffd" />
+
+
 
 See the reference below for more details.
 
