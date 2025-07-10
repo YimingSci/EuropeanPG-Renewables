@@ -9,7 +9,7 @@ This code develops a European power grid model that includes solar and wind gene
 To simulate a blackout scenario similar to the one that occurred on April 28, 2025, in the Iberian Peninsula, the model was pre-calibrated to reflect a comparable power flow condition.
 The power grid dynamics are as follows: 
 
-<img width="928"*0.5 height="103"*0.5 alt="image" src="https://github.com/user-attachments/assets/d08b51c4-6fb2-4c4c-a247-893cf6db4d7c" />
+<img width="928"*0.1 height="103"*0.1 alt="image" src="https://github.com/user-attachments/assets/d08b51c4-6fb2-4c4c-a247-893cf6db4d7c" />
 
 <img width="738" height="96" alt="image" src="https://github.com/user-attachments/assets/330aeab2-7dee-4999-9e9e-9e303ae6af13" />
 
