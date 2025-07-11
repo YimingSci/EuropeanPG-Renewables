@@ -14,7 +14,7 @@ See the reference below for more details.
 
 <img width="1000"  alt="Distribution_Reanewable" src="https://github.com/user-attachments/assets/f8d13b92-0334-4e33-9f99-c8a83797e5cb" />
 
-
+*Figure 2: Power flow before the blackout in PSF.*
 
 
 ## Energy Mix
