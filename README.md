@@ -79,7 +79,7 @@ The dynamic behavior of the network is analyzed using the  `Dynamic_analysis.m` 
 
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/d08b51c4-6fb2-4c4c-a247-893cf6db4d7c" />
 
-In the equations, $$M_i$$ denotes the inertia and $$D_i$$ denotes the damping coefficient.$$P_i(0)$$ denotes the mechanical power of node, $$P_i(e)$$ denotes the electric power of node, the imbalance between  $$P_i(e)$$ and  $$P_i(0)$$ caused by the disturbance is the driving factor behind the onset of power system oscillations and potential instability. $$delta_i$$ denotes the voltage phase angle of generator $$i$$, which serves as a key state variable characterizing the system’s dynamic behavior.
+In the equations, $$M_i$$ denotes the inertia and $$D_i$$ denotes the damping coefficient.$$P_{i(0)}$$ denotes the mechanical power of node, $$P_{i(e)}$$ denotes the electric power of node, the imbalance between  $$P_{i(e)}$$ and  $$P_{i(0)}$$ caused by the disturbance is the driving factor behind the onset of power system oscillations and potential instability. $$delta_i$$ denotes the voltage phase angle of generator $$i$$, which serves as a key state variable characterizing the system’s dynamic behavior.
 
 The dynamics of load nodes are as follows: 
 
@@ -90,7 +90,7 @@ The power flow equations of the grid are as follows:
 
 <img width="3095" height="206" alt="eq2" src="https://github.com/user-attachments/assets/8723ce69-cb2f-4adf-858d-156d87059e8e" />
 
-In the equation, $$B_ij$$​ denotes the imaginary part of the admittance of the transmission line between nodes 
+In the equation, $$B_{ij}$$​ denotes the imaginary part of the admittance of the transmission line between nodes 
 $$i$$ and $$j$$, and $$V_i$$  represents the voltage magnitude at node $$i$$.
 
 
