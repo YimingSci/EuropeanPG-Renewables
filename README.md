@@ -77,19 +77,16 @@ The power flow on these lines is directed from west to east, with an estimated p
 
 The dynamic behavior of the network is analyzed using the  `Dynamic_analysis.m` script. The dynamics of generation nodes are as follows: 
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/d08b51c4-6fb2-4c4c-a247-893cf6db4d7c" />
+<img width="3095" height="206" alt="eq1" src="https://github.com/user-attachments/assets/ed89ebad-fd57-458a-a53d-5f5073ec9b8f" />
 
 In the equations, $$M_i$$ denotes the inertia and $$D_i$$ denotes the damping coefficient.$$P_{i(0)}$$ denotes the mechanical power of node, $$P_{i(e)}$$ denotes the electric power of node, the imbalance between  $$P_{i(e)}$$ and  $$P_{i(0)}$$ caused by the disturbance is the driving factor behind the onset of power system oscillations and potential instability. $$delta_i$$ denotes the voltage phase angle of generator $$i$$, which serves as a key state variable characterizing the system’s dynamic behavior.
 
 The dynamics of load nodes are as follows: 
 
-<img width="3095" height="206" alt="eq1" src="https://github.com/user-attachments/assets/ed89ebad-fd57-458a-a53d-5f5073ec9b8f" />
+
 <img width="3095" height="206" alt="eq2" src="https://github.com/user-attachments/assets/8723ce69-cb2f-4adf-858d-156d87059e8e" />
 
 The power flow equations of the grid are as follows:
-
-
-
 
 <img width="3095" height="267" alt="eq3" src="https://github.com/user-attachments/assets/81f0b555-6117-41af-a4c2-e81b703d8bdd" />
 
@@ -100,6 +97,7 @@ $$i$$ and $$j$$, and $$V_i$$  represents the voltage magnitude at node $$i$$.
 This code applies six initial disturbances across the Iberian Peninsula, with their locations and magnitudes derived from reference [6].
 Details of the disturbances are provided in Table 1. The disturbances are applied to the electrical power injections at these six nodes, representing sudden power drops in the grid.
 
+<img width="3095" height="806" alt="图片4" src="https://github.com/user-attachments/assets/864e42e9-dd0a-47b4-94cb-2000a0f2b612" />
 
 
 ## Usage
