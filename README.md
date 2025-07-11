@@ -32,8 +32,7 @@ Figure 1 illustrates the geographical distribution of these wind and solar sou
 
 
 
-<img width="3096" height="806" alt="图片5" src="https://github.com/user-attachments/assets/92deb827-f917-4ba0-afe8-4f61d368a7e8" />
-
+<img width="3096" height="807" alt="图片5" src="https://github.com/user-attachments/assets/e7d3ff6c-a4a5-45a8-bb81-2b1bdd1418c8" />
 
 
 
