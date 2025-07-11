@@ -71,11 +71,17 @@ Details of the disturbances are provided in Table 1.
 
 ## Usage
 
-- `PSF_Renewable.mat` : Power grid data. Compatible with MATPOWER [7].
+- `PSF_renewable.mat` : Power grid data. Compatible with MATPOWER [7].
 
 - `Dynamic_analysis.m` :  Code of time-domain simulation.
 
+# License
 
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+The full text of the GNU General Public License can be found in the file "LICENSE.txt".
 
 
 ## Reference
