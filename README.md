@@ -124,7 +124,7 @@ The full text of the GNU General Public License can be found in the file "LICENS
 
 ## Reference
 
-[1] Y. Wang, A. N. Montanaria, and A. E. Motter, *Rethinking the Green Power Grid*, submitted for publication.
+[1] Y. Wang, A. N. Montanaria, and A. E. Motter, “Rethinking the Green Power Grid,” *submitted for publication*.
 
 [2] M. Tyloo, L. Pagnier, and P. Jacquod, “The key player problem in complex oscillator networks and electric power grids: Resistance centralities identify local vulnerabilities,” *Science Advances*, vol. 5, no. 11, eaaw8359, 2019. [https://doi.org/10.1126/sciadv.aaw8359](https://doi.org/10.1126/sciadv.aaw8359)
 
