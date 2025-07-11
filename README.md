@@ -6,7 +6,7 @@
 
 This code is developed to assess the dynamic stability of the continental European power grid. The underlying network model comprises 7,343 transmission lines, 3,809 buses, and 1,089 generators, including 470 renewable units such as wind and solar power plants.
 
-The grid topology is derived from a publicly available dataset [1], while information on wind and solar installations is obtained from [2]. Renewable generation data for Portugal, Spain, and France (collectively referred to as PSF) reflect installations and capacities as of 2024.
+The grid topology is derived from a publicly available dataset [1], while information on wind and solar installations is obtained from [2]. Renewable generation data for Portugal, Spain, and France (collectively referred to as PSF region) reflect installations and capacities as of 2024.
 
 For power system analysis, we utilize widely adopted open-source tools, including the power flow solver MATPOWER [3] and a time-domain dynamic simulation framework as described in [1].
 
