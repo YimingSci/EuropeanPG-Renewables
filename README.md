@@ -81,7 +81,7 @@ The dynamic behavior of the network is analyzed using the  `Dynamic_analysis.m` 
 <img width="4624" height="206" alt="eq1" src="https://github.com/user-attachments/assets/943001e3-17a8-46d1-a014-a000fdc249e2" />
 
 
-In the equations, $$M_i$$ denotes the inertia and $$D_i$$ denotes the damping coefficient.$$P_{i(0)}$$ denotes the mechanical power of node, $$P_{i(e)}$$ denotes the electric power of node, the imbalance between  $$P_{i(e)}$$ and  $$P_{i(0)}$$ caused by the disturbance is the driving factor behind the onset of power system oscillations and potential instability. $$delta_i$$ denotes the voltage phase angle of generator $$i$$, which serves as a key state variable characterizing the system’s dynamic behavior.
+In the equations, $$M_i$$ denotes the inertia and $$D_i$$ denotes the damping coefficient. $$P_{i(0)}$$ denotes the mechanical power of node, $$P_{i(e)}$$ denotes the electric power of node, the imbalance between  $$P_{i(e)}$$ and  $$P_{i(0)}$$ caused by the disturbance is the driving factor behind the onset of power system oscillations and potential instability. $$delta_i$$ denotes the voltage phase angle of generator $$i$$, which serves as a key state variable characterizing the system’s dynamic behavior.
 
 The dynamics of load nodes are as follows: 
 
