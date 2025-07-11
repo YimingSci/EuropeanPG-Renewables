@@ -45,21 +45,15 @@ Table 1: This table lists the 13 types of power sources included in the grid mod
 
 
 ## Power Flow
-根据电网运营商提供的数据，我们重绘了2025年4月28日的Portugal [4], Spain [4], and France [5] 电源出力情况，如图2a~c所示。为了对上述的电源结构进行匹配，我们预先调整电源出力和功率潮流，使得三个国家的电源结构与4月28日类似。调整后电网模型的电源结构如图2d~f所示。
+Based on data provided by the power grid operators, we reconstructed the power generation profiles of Portugal [4], Spain [4], and France [5] on April 28, 2025, as shown in Figures 2a–2c.
+To reflect this generation structure, we pre-adjusted the generator outputs and power flows so that the modeled power mix in the three countries matches the conditions observed on that date.
+The adjusted generation structure in the grid model is shown in Figures 2d–2f.
 
-We pre-adjusted the power flow to match the conditions in the PSF region immediately prior to the blackout on April 28, 2025.
-Figures 2a–2c show the generation and load structures of Portugal [4], Spain [4], and France [5] on that day.
-Figure 2d presents the overall generation mix, while Figure 2e shows the spatial distribution of the load.
+<img width="2685" height="2090" alt="Energy_mix" src="https://github.com/user-attachments/assets/8b0e53cf-fe2f-4099-b6e8-032ab95a96f3" />
 
-Wind and solar generation: 40.53 GW
-
-Conventional generation: 49.97 GW
-
-Total load: 80.10 GW
 
 Under the above power flow conditions, the stress on the transmission network is shown in Fig. 3. The color of each transmission line indicates the magnitude of power flow, while the arrows indicate its direction.
 
-<img width="2685" height="2090" alt="Energy_mix" src="https://github.com/user-attachments/assets/8b0e53cf-fe2f-4099-b6e8-032ab95a96f3" />
 
 
 
