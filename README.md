@@ -4,9 +4,11 @@
 
 ## Model Description
 
-This code is designed to analyze the dynamic stability of the European power grid. The base grid model is adapted from [1], while data for wind and solar power plants is sourced from [2]. Auxiliary analysis tools are based on [1] and [3].
+This code is developed to assess the dynamic stability of the continental European power grid. The underlying network model comprises 7,343 transmission lines, 3,809 buses, and 1,089 generators, including 470 renewable units such as wind and solar power plants.
 
-Wind and solar generation data across Portugal, Spain, and France (collectively referred to as PSF) used in this model are based on information available up to 2024.
+The grid topology is derived from a publicly available dataset [1], while information on wind and solar installations is obtained from [2]. Renewable generation data for Portugal, Spain, and France (collectively referred to as PSF) reflect installations and capacities as of 2024.
+
+For power system analysis, we utilize widely adopted open-source tools, including the power flow solver MATPOWER [3] and a time-domain dynamic simulation framework as described in [1].
 
 The power grid dynamics are as follows: 
 
