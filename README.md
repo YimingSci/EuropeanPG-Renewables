@@ -83,12 +83,12 @@ In the equations, $$M_i$$ denotes the inertia and $$D_i$$ denotes the damping co
 
 The dynamics of load nodes are as follows: 
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/330aeab2-7dee-4999-9e9e-9e303ae6af13" />
+<img width="3095" height="206" alt="eq1" src="https://github.com/user-attachments/assets/ed89ebad-fd57-458a-a53d-5f5073ec9b8f" />
 
 
 The power flow equations of the grid are as follows:
 
-<img width="302"  alt="image" src="https://github.com/user-attachments/assets/5f682f2e-75ef-4305-b138-afe1fdc13ffd" />
+<img width="3095" height="206" alt="eq2" src="https://github.com/user-attachments/assets/8723ce69-cb2f-4adf-858d-156d87059e8e" />
 
 In the equation, $$B_ij$$​ denotes the imaginary part of the admittance of the transmission line between nodes 
 $$i$$ and $$j$$, and $$V_i$$  represents the voltage magnitude at node $$i$$.
@@ -97,7 +97,7 @@ $$i$$ and $$j$$, and $$V_i$$  represents the voltage magnitude at node $$i$$.
 This code applies six initial disturbances across the Iberian Peninsula, with their locations and magnitudes derived from reference [6].
 Details of the disturbances are provided in Table 1. The disturbances are applied to the electrical power injections at these six nodes, representing sudden power drops in the grid.
 
-<img width="3095" height="806" alt="图片4" src="https://github.com/user-attachments/assets/08209fb8-b073-44c8-8011-ec0eb6482f54" />
+<img width="3095" height="267" alt="eq3" src="https://github.com/user-attachments/assets/81f0b555-6117-41af-a4c2-e81b703d8bdd" />
 
 
 ## Usage
