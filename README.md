@@ -35,7 +35,7 @@ To reflect the low-inertia characteristics of wind and solar generators, a unifo
 
 
 <img width="3096" height="807" alt="图片5" src="https://github.com/user-attachments/assets/e7d3ff6c-a4a5-45a8-bb81-2b1bdd1418c8" />
-Table 1: This table lists the 13 types of power sources included in the grid model, along with their corresponding abbreviations.
+*Table 1: This table lists the 13 types of power sources included in the grid model, along with their corresponding abbreviations.*
 
 
 
@@ -50,6 +50,15 @@ To reflect this generation structure, we pre-adjusted the generator outputs and 
 The adjusted generation structure in the grid model is shown in Figures 2d–2f.
 
 <img width="2685" height="2090" alt="Energy_mix" src="https://github.com/user-attachments/assets/8b0e53cf-fe2f-4099-b6e8-032ab95a96f3" />
+*Figure 2: a~c为2025年4月28日葡萄牙、西班牙、法国的电源结构图。solar和wind在葡萄牙和西班牙的电源结构中占主导地位。法国的情况相反，核电在电源结构中占据主导地位。
+
+
+
+Geographic distribution of generator/load nodes in the continental European power grid.
+The blue data points represent the locations of generator/load nodes from dataset [1], which was developed in 2018 and does not include wind or solar generators.
+The red data points show the geographic distribution of wind and solar generators in the PSF region, based on dataset [2].*
+
+
 
 
 Under the above power flow conditions, the stress on the transmission network is shown in Fig. 3. The color of each transmission line indicates the magnitude of power flow, while the arrows indicate its direction.
