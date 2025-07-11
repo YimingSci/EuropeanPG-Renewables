@@ -113,7 +113,7 @@ Details of the disturbances are provided in Table 1. The disturbances are applie
 - `PSF_renewable.mat` : Power grid data. Provided in a format compatible with MATPOWER [4], with power flows pre-adjusted to match the generation profiles shown in Figures 2d–2f.
 - `Dynamic_analysis.m` : Time-domain simulation code. This script includes fault initialization, parameter setup, and dynamic simulation procedures.
 
-# License
+## License
 
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
 
