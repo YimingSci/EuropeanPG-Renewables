@@ -12,6 +12,11 @@ For power system analysis, we utilize widely adopted open-source tools, includin
 
 See the reference below for more details.
 
+<img width="1000"  alt="Distribution_Reanewable" src="https://github.com/user-attachments/assets/f8d13b92-0334-4e33-9f99-c8a83797e5cb" />
+
+
+
+
 ## Energy Mix
 
 ### Conventional power sources and transmission network:
@@ -21,7 +26,6 @@ We adopt the transmission system and conventional generation fleet from the mode
 The solar and wind units considered in this model cover the entire PSF region (Portugal, Spain, and France), with data derived from OpenStreetMap [2]. A total of 87 solar units and 19,562 wind units have been integrated into our analysis.
 Figure 1 illustrates the geographical distribution of these wind and solar sources.
 
-<img width="1000"  alt="Distribution_Reanewable" src="https://github.com/user-attachments/assets/f8d13b92-0334-4e33-9f99-c8a83797e5cb" />
 
 
 
@@ -98,6 +102,6 @@ The full text of the GNU General Public License can be found in the file "LICENS
 
 [6] Comité para el Análisis de las Circunstancias que Concurrieron en la Crisis de Electricidad del 28 de Abril de 2025. (2025, June). Versión no confidencial del informe del comité para el análisis de las circunstancias que concurrieron en la crisis de electricidad del 28 de abril de 2025.
 
-[7] Rethink of Green Power Grid. 
+
 
 
