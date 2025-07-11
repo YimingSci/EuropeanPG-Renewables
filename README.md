@@ -77,18 +77,21 @@ The power flow on these lines is directed from west to east, with an estimated p
 
 The dynamic behavior of the network is analyzed using the  `Dynamic_analysis.m` script. The dynamics of generation nodes are as follows: 
 
-<img width="3095" height="206" alt="eq1" src="https://github.com/user-attachments/assets/ed89ebad-fd57-458a-a53d-5f5073ec9b8f" />
+
+<img width="4624" height="206" alt="eq1" src="https://github.com/user-attachments/assets/943001e3-17a8-46d1-a014-a000fdc249e2" />
+
 
 In the equations, $$M_i$$ denotes the inertia and $$D_i$$ denotes the damping coefficient.$$P_{i(0)}$$ denotes the mechanical power of node, $$P_{i(e)}$$ denotes the electric power of node, the imbalance between  $$P_{i(e)}$$ and  $$P_{i(0)}$$ caused by the disturbance is the driving factor behind the onset of power system oscillations and potential instability. $$delta_i$$ denotes the voltage phase angle of generator $$i$$, which serves as a key state variable characterizing the system’s dynamic behavior.
 
 The dynamics of load nodes are as follows: 
 
 
-<img width="3095" height="206" alt="eq2" src="https://github.com/user-attachments/assets/8723ce69-cb2f-4adf-858d-156d87059e8e" />
+<img width="4624" height="206" alt="eq2" src="https://github.com/user-attachments/assets/dd48b578-ccd7-4da8-83d6-a50927187426" />
+
 
 The power flow equations of the grid are as follows:
 
-<img width="3095" height="267" alt="eq3" src="https://github.com/user-attachments/assets/81f0b555-6117-41af-a4c2-e81b703d8bdd" />
+<img width="4624" height="283" alt="eq3" src="https://github.com/user-attachments/assets/34e11223-66af-477d-8d27-61a070c284f0" />
 
 In the equation, $$B_{ij}$$​ denotes the imaginary part of the admittance of the transmission line between nodes 
 $$i$$ and $$j$$, and $$V_i$$  represents the voltage magnitude at node $$i$$.
