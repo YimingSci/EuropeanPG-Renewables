@@ -50,7 +50,12 @@ To reflect this generation structure, we pre-adjusted the generator outputs and 
 The adjusted generation structure in the grid model is shown in Figures 2d–2f.
 
 <img width="2685" height="2090" alt="Energy_mix" src="https://github.com/user-attachments/assets/8b0e53cf-fe2f-4099-b6e8-032ab95a96f3" />
-*Figure 2: a~c为2025年4月28日葡萄牙、西班牙、法国的电源结构图。solar和wind在葡萄牙和西班牙的电源结构中占主导地位。法国的情况相反，核电在电源结构中占据主导地位。
+
+*Figure 2:
+Panels a–c show the generation mix of Portugal, Spain, and France on April 28, 2025.
+Portugal and Spain exhibit similar structures, with solar and wind power dominating their generation portfolios.
+In contrast, nuclear power constitutes the dominant source in France.
+Panels d–f illustrate the adjusted generation mix used in the grid model for the three countries.*
 
 
 
