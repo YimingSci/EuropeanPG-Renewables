@@ -23,12 +23,14 @@ The red data points show the geographic distribution of wind and solar generator
 
 ## Energy Mix
 
-### Conventional power sources and transmission network:
+### Conventional power sources:
 We adopt the transmission system and conventional generation fleet from the model published in Science Advances [1], which was developed based on data from 2018 and does not include wind or solar generation.
 
 ### Wind and solar power sources:
 The solar and wind units considered in this model cover the entire PSF region (Portugal, Spain, and France), with data derived from OpenStreetMap [2]. A total of 87 solar units and 19,562 wind units have been integrated into our analysis.
 Figure 1 illustrates the geographical distribution of these wind and solar sources.
+
+
 
 
 
