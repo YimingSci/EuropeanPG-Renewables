@@ -32,6 +32,12 @@ Figure 1 illustrates the geographical distribution of these wind and solar sou
 
 
 
+<img width="730" height="742" alt="图片5" src="https://github.com/user-attachments/assets/e903725d-f26a-4ad9-af23-2362e805d0d4" />
+
+
+
+
+
 
 <img width="2685" height="2090" alt="Energy_mix" src="https://github.com/user-attachments/assets/8b0e53cf-fe2f-4099-b6e8-032ab95a96f3" />
 
@@ -77,9 +83,8 @@ The dynamic behavior of the network is analyzed using the  `Dynamic_analysis.m` 
 This code applies six initial disturbances across the Iberian Peninsula, with their locations and magnitudes derived from reference [6].
 Details of the disturbances are provided in Table 1.
 
-<img width="606"  alt="image" src="https://github.com/user-attachments/assets/5dd2c363-db3b-43b7-94cf-65334b836729" />
 
-
+<img width="732" height="731" alt="图片4" src="https://github.com/user-attachments/assets/7dfe1852-5955-457c-bd62-25217c369415" />
 
 
 ## Usage
