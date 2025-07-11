@@ -12,7 +12,7 @@ For power system analysis, we utilize widely adopted open-source tools, includin
 
 See the reference below for more details.
 
-<img width="1000"  alt="Distribution_Reanewable" src="https://github.com/user-attachments/assets/f8d13b92-0334-4e33-9f99-c8a83797e5cb" />
+<img width="2440" height="1335" alt="Distribution_Reanewable" src="https://github.com/user-attachments/assets/e1699d23-5b87-453d-aa64-04e99f71c93d" />
 
 *Figure 2: Power flow before the blackout in PSF.*
 
