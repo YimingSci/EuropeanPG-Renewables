@@ -23,17 +23,19 @@ The red data points show the geographic distribution of wind and solar generator
 
 ## Energy Mix
 
-### Conventional power sources:
-We adopt the transmission system and conventional generation fleet from the model published in Science Advances [1], which was developed based on data from 2018 and does not include wind or solar generation.
+### Conventional power generations:
+All power sources other than wind and solar are categorized as conventional. The types of conventional power generations involved are summarized in Table 1.
+The parameters and geographical locations of these generators are based on dataset [1].
 
-### Wind and solar power sources:
-The solar and wind units considered in this model cover the entire PSF region (Portugal, Spain, and France), with data derived from OpenStreetMap [2]. A total of 87 solar units and 19,562 wind units have been integrated into our analysis.
-Figure 1 illustrates the geographical distribution of these wind and solar sources.
+### Wind and solar power generations:
+Based on the location and capacity data provided in [2], a total of 87 photovoltaic units and 19,562 wind turbines in the PSF region have been integrated into the European power grid model.
+All generation units are modeled using the second-order swing equation.
+To reflect the low-inertia characteristics of wind and solar generators, a uniform inertia constant of 0.005 is assigned to them—approximately one-tenth of the minimum inertia constant among conventional power sources. The damping coefficient is uniformly set to 0.001.
 
 
 
 <img width="3096" height="807" alt="图片5" src="https://github.com/user-attachments/assets/e7d3ff6c-a4a5-45a8-bb81-2b1bdd1418c8" />
-
+Table 1: This table lists the 13 types of power sources included in the grid model, along with their corresponding abbreviations.
 
 
 
