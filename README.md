@@ -68,7 +68,7 @@ The main power flow on these lines is directed from west to east, with an estima
 
 <img width="1000"  alt="Power_flow" src="https://github.com/user-attachments/assets/0cb0a3ae-b09b-448a-ab2b-24a6e036aad4" />
 
-
+*Figure 3: Distribution of power flows in the continental European grid*
 
 
 
@@ -103,6 +103,9 @@ This code applies six initial disturbances across the Iberian Peninsula, with th
 Details of the disturbances are provided in Table 1. The disturbances are applied to the electrical power injections at these six nodes, representing sudden power drops in the grid.
 
 <img width="3095" height="806" alt="图片4" src="https://github.com/user-attachments/assets/864e42e9-dd0a-47b4-94cb-2000a0f2b612" />
+
+*Table 2: Information on the locations and power loss of the initial disturbances. More than ten power loss events are grouped into six categories based on the disturbance locations, each named after a representative city. The Bus ID indicates the bus number of the simulated disturbance node, which can be cross-referenced with the bus numbers in `PSF_renewable.mat`*
+
 
 
 ## Usage
