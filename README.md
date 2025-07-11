@@ -33,6 +33,11 @@ Figure 1 illustrates the geographical distribution of these wind and solar sou
 
 
 
+<img width="2685" height="2090" alt="Energy_mix" src="https://github.com/user-attachments/assets/8b0e53cf-fe2f-4099-b6e8-032ab95a96f3" />
+
+
+
+
 
 
 ## Power Flow
