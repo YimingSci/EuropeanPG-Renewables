@@ -97,7 +97,7 @@ $$i$$ and $$j$$, and $$V_i$$  represents the voltage magnitude at node $$i$$.
 This code applies six initial disturbances across the Iberian Peninsula, with their locations and magnitudes derived from reference [6].
 Details of the disturbances are provided in Table 1. The disturbances are applied to the electrical power injections at these six nodes, representing sudden power drops in the grid.
 
-<img width="732" height="731" alt="图片4" src="https://github.com/user-attachments/assets/7dfe1852-5955-457c-bd62-25217c369415" />
+<img width="3095" height="806" alt="图片4" src="https://github.com/user-attachments/assets/08209fb8-b073-44c8-8011-ec0eb6482f54" />
 
 
 ## Usage
