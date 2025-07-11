@@ -105,9 +105,8 @@ Details of the disturbances are provided in Table 1. The disturbances are applie
 
 ## Usage
 
-- `PSF_renewable.mat` : Power grid data. Compatible with MATPOWER [7].
-
-- `Dynamic_analysis.m` :  Code of time-domain simulation.
+- `PSF_renewable.mat` : Power grid data. 它作为一个可被matpower兼容的格式提供[7]，电力潮流已经被按照图2的d~f进行了的预先调整。
+- `Dynamic_analysis.m` :  Code of time-domain simulation. 它包含了故障初始化、参数初始化、时域仿真等几个部分。
 
 # License
 
@@ -119,18 +118,22 @@ The full text of the GNU General Public License can be found in the file "LICENS
 
 
 ## Reference
-[1] Tyloo, M., Pagnier, L., & Jacquod, P. (2019). The key player problem in complex oscillator networks and electric power grids: Resistance centralities identify local vulnerabilities. Science Advances, 5(11), eaaw8359. https://doi.org/10.1126/sciadv.aaw8359
 
-[2] OpenInfraMap contributors. (2024). OpenInfraMap – Infrastructure map of the world. Retrieved from https://openinframap.org (Accessed: 2025-07-03)
+[1] Y. Wang, A. N. Montanaria, and A. E. Motter, *Rethinking the Green Power Grid*, submitted for publication.
 
-[3] Zimmerman, R. D., Murillo-Sánchez, C. E., & Thomas, R. J. (2011). MATPOWER: Steady-State Operations, Planning, and Analysis Tools for Power Systems Research and Education. IEEE Transactions on Power Systems, 26(1), 12–19. https://doi.org/10.1109/TPWRS.2010.2051168
+[2] M. Tyloo, L. Pagnier, and P. Jacquod, “The key player problem in complex oscillator networks and electric power grids: Resistance centralities identify local vulnerabilities,” *Science Advances*, vol. 5, no. 11, eaaw8359, 2019. [https://doi.org/10.1126/sciadv.aaw8359](https://doi.org/10.1126/sciadv.aaw8359)
 
-[4] ENTSO-E. (2025, June). Iberian blackout on 28 April 2025. Internal communication.
+[3] OpenInfraMap contributors, *OpenInfraMap – Infrastructure map of the world*, 2024.
+   [https://openinframap.org](https://openinframap.org) (accessed Jul. 3, 2025)
 
-[5] RTE France. eco2mix – Power generation by energy source. https://www.rte-france.com/en/eco2mix/power-generation-energy-source
+[4] R. D. Zimmerman, C. E. Murillo-Sánchez, and R. J. Thomas, “MATPOWER: Steady-State Operations, Planning, and Analysis Tools for Power Systems Research and Education,” *IEEE Trans. Power Syst.*, vol. 26, no. 1, pp. 12–19, 2011.
+   [https://doi.org/10.1109/TPWRS.2010.2051168](https://doi.org/10.1109/TPWRS.2010.2051168)
 
-[6] Comité para el Análisis de las Circunstancias que Concurrieron en la Crisis de Electricidad del 28 de Abril de 2025. (2025, June). Versión no confidencial del informe del comité para el análisis de las circunstancias que concurrieron en la crisis de electricidad del 28 de abril de 2025.
+[5] ENTSO-E, *Iberian blackout on 28 April 2025*, internal communication, Jun. 2025.
+   [https://www.entsoe.eu/publications/blackout/28-april-2025-iberian-blackout/](https://www.entsoe.eu/publications/blackout/28-april-2025-iberian-blackout/)
 
+[6] RTE France, *eco2mix – Power generation by energy source*.
+   [https://www.rte-france.com/en/eco2mix/power-generation-energy-source](https://www.rte-france.com/en/eco2mix/power-generation-energy-source)
 
-
-
+[7] Red Eléctrica de España, *Blackout in Spanish Peninsular Electrical System the 28th of April 2025*, Jun. 2025.
+   [https://d1n1o4zeyfu21r.cloudfront.net/WEB\_Incident\_%2028A\_SpanishPeninsularElectricalSystem\_18june25.pdf](https://d1n1o4zeyfu21r.cloudfront.net/WEB_Incident_%2028A_SpanishPeninsularElectricalSystem_18june25.pdf)
