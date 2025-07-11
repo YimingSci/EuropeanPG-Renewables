@@ -58,45 +58,44 @@ In contrast, nuclear power constitutes the dominant source in France.
 Panels d–f illustrate the adjusted generation mix used in the grid model for the three countries.*
 
 
-
-Geographic distribution of generator/load nodes in the continental European power grid.
-The blue data points represent the locations of generator/load nodes from dataset [1], which was developed in 2018 and does not include wind or solar generators.
-The red data points show the geographic distribution of wind and solar generators in the PSF region, based on dataset [2].*
-
-
-
-
-Under the above power flow conditions, the stress on the transmission network is shown in Fig. 3. The color of each transmission line indicates the magnitude of power flow, while the arrows indicate its direction.
-
-
-
-
+Under the above power flow conditions, the loading stress on the transmission network is shown in Figure 3.
+The color of each transmission line represents the magnitude of power flow, while the arrows indicate its direction.
+A notable observation is the significant stress on the interconnections between the Iberian Peninsula and continental Europe.
+The power flow on these lines is directed from west to east, with an estimated power exchange between the two regions of approximately xx GW.
 
 
 <img width="1000"  alt="Power_flow" src="https://github.com/user-attachments/assets/0cb0a3ae-b09b-448a-ab2b-24a6e036aad4" />
 
-The power grid dynamics are as follows: 
-
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/d08b51c4-6fb2-4c4c-a247-893cf6db4d7c" />
 
 
 
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/330aeab2-7dee-4999-9e9e-9e303ae6af13" />
 
-
-In the equations, $$M_i$$ denotes the inertia and $$D_i$$ denotes the damping coefficient. For solar and wind units, we use homogenized parameters with $$M_i=0.005$$ and $$D_i=0.001$$. For all other generators, the inertia and damping values are adopted from [1]. 
-The power flow equations of the grid are as follows:
-
-<img width="302"  alt="image" src="https://github.com/user-attachments/assets/5f682f2e-75ef-4305-b138-afe1fdc13ffd" />
 
 
 
 ## Dynamic Analysis of the Power Grid
 
-The dynamic behavior of the network is analyzed using the  `Dynamic_analysis.m` script.
-This code applies six initial disturbances across the Iberian Peninsula, with their locations and magnitudes derived from reference [6].
-Details of the disturbances are provided in Table 1.
+The dynamic behavior of the network is analyzed using the  `Dynamic_analysis.m` script. The dynamics of generation nodes are as follows: 
 
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/d08b51c4-6fb2-4c4c-a247-893cf6db4d7c" />
+
+In the equations, $$M_i$$ denotes the inertia and $$D_i$$ denotes the damping coefficient.$$P_i(0)$$ denotes the mechanical power of node, $$P_i(e)$$ denotes the electric power of node, the imbalance between  $$P_i(e)$$ and  $$P_i(0)$$ caused by the disturbance is the driving factor behind the onset of power system oscillations and potential instability. $$delta_i$$ denotes the voltage phase angle of generator $$i$$, which serves as a key state variable characterizing the system’s dynamic behavior.
+
+The dynamics of load nodes are as follows: 
+
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/330aeab2-7dee-4999-9e9e-9e303ae6af13" />
+
+
+The power flow equations of the grid are as follows:
+
+<img width="302"  alt="image" src="https://github.com/user-attachments/assets/5f682f2e-75ef-4305-b138-afe1fdc13ffd" />
+
+In the equation, $$B_ij$$​ denotes the imaginary part of the admittance of the transmission line between nodes 
+$$i$$ and $$j$$, and $$V_i$$  represents the voltage magnitude at node $$i$$.
+
+
+This code applies six initial disturbances across the Iberian Peninsula, with their locations and magnitudes derived from reference [6].
+Details of the disturbances are provided in Table 1. The disturbances are applied to the electrical power injections at these six nodes, representing sudden power drops in the grid.
 
 <img width="732" height="731" alt="图片4" src="https://github.com/user-attachments/assets/7dfe1852-5955-457c-bd62-25217c369415" />
 
