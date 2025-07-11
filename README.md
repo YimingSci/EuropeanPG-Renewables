@@ -63,7 +63,7 @@ Panels d–f illustrate the adjusted generation mix used in the grid model for t
 Under the above power flow conditions, the loading stress on the transmission network is shown in Figure 3.
 The color of each transmission line represents the magnitude of power flow, while the arrows indicate its direction.
 A notable observation is the significant stress on the interconnections between the Iberian Peninsula and continental Europe.
-The main power flow on these lines is directed from west to east, with an estimated power exchange between the two regions of approximately xx GW.
+The main power flow on these lines is directed from west to east, with an estimated power exchange between the two regions of approximately 4.3 GW.
 
 
 <img width="1000"  alt="Power_flow" src="https://github.com/user-attachments/assets/0cb0a3ae-b09b-448a-ab2b-24a6e036aad4" />
