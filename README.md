@@ -6,17 +6,17 @@
 
 This code is developed to assess the dynamic stability of the continental European power grid. The underlying network model comprises **7,343** transmission lines, **3,809** buses (nodes), and **1,089** generators, including **470** renewable units such as available wind and solar power plants.
 
-The grid topology is derived from a publicly available dataset [1], while information on wind and solar installations is obtained from [2]. Renewable generation data for Portugal, Spain, and France (collectively referred to as PSF region) reflect installations and capacities as of **June 2025**.
+The grid topology is derived from a publicly available dataset [2], while information on wind and solar installations is obtained from [3]. Renewable generation data for Portugal, Spain, and France (collectively referred to as PSF region) reflect installations and capacities as of **June 2025**.
 
-For power system analysis, we utilize widely adopted open-source tools, including the power flow solver MATPOWER [3] and a time-domain dynamic simulation framework as described in [1].
+For power system analysis, we utilize widely adopted open-source tools, including the power flow solver MATPOWER [4] and a time-domain dynamic simulation framework as described in [2].
 
 See the reference below for more details.
 
 <img width="2440" height="1335" alt="Distribution_Reanewable" src="https://github.com/user-attachments/assets/e1699d23-5b87-453d-aa64-04e99f71c93d" />
 
 *Figure 1: Geographic distribution of generator/load nodes in the continental European power grid.
-The blue data points represent the locations of generator/load nodes from dataset [1], which was developed in 2018 and does not include wind or solar generators.
-The red data points show the geographic distribution of wind and solar generators in the PSF region, based on dataset [2].*
+The blue data points represent the locations of generator/load nodes from dataset [2], which was developed in 2018 and does not include wind or solar generators.
+The red data points show the geographic distribution of wind and solar generators in the PSF region, based on dataset [3].*
 
 
 
@@ -25,10 +25,10 @@ The red data points show the geographic distribution of wind and solar generator
 
 ### Conventional power generations:
 All power sources other than wind and solar are categorized as conventional. The types of conventional power generations involved are summarized in Table 1.
-The parameters and geographical locations of these generators are based on dataset [1].
+The parameters and geographical locations of these generators are based on dataset [2].
 
 ### Wind and solar power generations:
-Based on the location and capacity data provided in [2], a total of 87 photovoltaic units and 19,562 wind turbines in the PSF region have been integrated into the European power grid model.
+Based on the location and capacity data provided in [3], a total of 87 photovoltaic units and 19,562 wind turbines in the PSF region have been integrated into the European power grid model.
 All generation units are modeled using the second-order swing equation.
 To reflect the low-inertia characteristics of wind and solar generators, a uniform inertia constant of 0.005 is assigned to them—approximately one-tenth of the minimum inertia constant among conventional power sources. The damping coefficient is uniformly set to 0.001.
 
@@ -45,7 +45,7 @@ To reflect the low-inertia characteristics of wind and solar generators, a unifo
 
 
 ## Power Flow
-Based on data provided by the power grid operators, we reconstructed the power generation profiles of Portugal [4], Spain [4], and France [5] on April 28, 2025, as shown in Figures 2a–2c.
+Based on data provided by the power grid operators, we reconstructed the power generation profiles of Portugal [5], Spain [5], and France [6] on April 28, 2025, as shown in Figures 2a–2c.
 To reflect this generation structure, we pre-adjusted the generator outputs and power flows so that the modeled power mix in the three countries matches the conditions observed on that date.
 The adjusted generation structure in the grid model is shown in Figures 2d–2f.
 
@@ -97,7 +97,7 @@ In the equation, $$B_{ij}$$​ denotes the imaginary part of the admittance of t
 $$i$$ and $$j$$, and $$V_i$$  represents the voltage magnitude at node $$i$$.
 
 
-This code applies six initial disturbances across the Iberian Peninsula, with their locations and magnitudes derived from reference [6].
+This code applies six initial disturbances across the Iberian Peninsula, with their locations and magnitudes derived from reference [7].
 Details of the disturbances are provided in Table 1. The disturbances are applied to the electrical power injections at these six nodes, representing sudden power drops in the grid.
 
 <img width="3095" height="806" alt="图片4" src="https://github.com/user-attachments/assets/864e42e9-dd0a-47b4-94cb-2000a0f2b612" />
@@ -105,9 +105,9 @@ Details of the disturbances are provided in Table 1. The disturbances are applie
 
 ## Usage
 
-- `PSF_renewable.mat` : Power grid data. 它作为一个可被matpower兼容的格式提供[7]，电力潮流已经被按照图2的d~f进行了的预先调整。
-- `Dynamic_analysis.m` :  Code of time-domain simulation. 它包含了故障初始化、参数初始化、时域仿真等几个部分。
-
+- `PSF_renewable.mat` : Power grid data. Provided in a format compatible with MATPOWER [4], with power flows pre-adjusted to match the generation profiles shown in Figures 2d–2f.
+- `Dynamic_analysis.m` : Time-domain simulation code. This script includes fault initialization, parameter setup, and dynamic simulation procedures.
+- 
 # License
 
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
