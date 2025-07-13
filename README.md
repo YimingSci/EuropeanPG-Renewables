@@ -51,6 +51,8 @@ The main power flow on these lines is directed from Spain to France, with an est
 
 <img width="1000"  alt="Power_flow" src="https://github.com/user-attachments/assets/0cb0a3ae-b09b-448a-ab2b-24a6e036aad4" />
 
+<img width="1000" alt="Power_flow" src="https://github.com/user-attachments/assets/21a0563d-f616-4538-84fe-50e3bf66792b" />
+
 **Fig. 3:** *Distribution of power flows in the continental European grid.*
 
 
