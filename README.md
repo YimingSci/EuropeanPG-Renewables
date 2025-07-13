@@ -48,9 +48,6 @@ Based on data provided by the transmission system operators (TSO), Fig. 2a-c sho
 Under the above power flow conditions, we use the MATPOWER toolbox to solve the power-flow equation (see below) and the compute the loading stress on the transmission network (Fig. 3). The color of each transmission line represents the magnitude of power flow, while the arrows indicate its direction. A notable observation is the significant stress on the interconnections between the Iberian Peninsula and continental Europe.
 The main power flow on these lines is directed from Spain to France, with an estimated power exchange between the two regions of approximately 0.51 GW.
 
-
-<img width="1000"  alt="Power_flow" src="https://github.com/user-attachments/assets/0cb0a3ae-b09b-448a-ab2b-24a6e036aad4" />
-
 <img width="1000" alt="Power_flow" src="https://github.com/user-attachments/assets/21a0563d-f616-4538-84fe-50e3bf66792b" />
 
 **Fig. 3:** *Distribution of power flows in the continental European grid.*
