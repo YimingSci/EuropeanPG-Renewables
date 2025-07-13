@@ -10,7 +10,9 @@ The European power-grid model incorporates **7,343** transmission lines, **3,809
 
 For power system analysis, we utilize widely adopted open-source tools, including the power flow solver MATPOWER [4] and the time-domain dynamic simulation framework described in Ref. [2]. Both tools are implemented in MATLAB, and we recommend using version R2024a for compatibility. See the reference below for more details.
 
-<img width="2440" height="1335" alt="Distribution_Reanewable" src="https://github.com/user-attachments/assets/e1699d23-5b87-453d-aa64-04e99f71c93d" />
+<img width="2695" height="1480" alt="Distribution_Reanewable" src="https://github.com/user-attachments/assets/be113841-b522-40ba-b91d-96f136c1f41b" />
+
+
 
 **Fig. 1:** *Geographic distribution of generator/load nodes in the continental European power grid. The blue data points represent the locations of generator/load nodes reported in dataset [2], which was developed in 2018 and does not include wind or solar generators. The red data points show the geographic distribution of wind and solar generators in the PSF region, based on dataset [3].*
 
