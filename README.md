@@ -97,8 +97,15 @@ Our simulations consider six initial disturbances across the Iberian Peninsula, 
 Matpower 6.0 (https://matpower.org/download/) is required for the power flow calculation.
 
 ## Dependency
-The following codes were reported in Ref. [2]. If you use this code to any future work, please do not forget to provide credit to the original authors by referencing Ref. [2].
-- `PSF_renewable.mat` : Power grid data, provided in a `mpc` format compatible with MATPOWER [4], with power flows pre-adjusted to match the generation profiles shown in Figures 2d–f.
+
+The following codes are originally reported in Ref. [2]. If you use them
+in any future work, please remember to give proper credit by citing Ref. [2].
+
+- `NRsolver.m` : Solves power flow equations using the Newton-Raphson method.
+- `Radau5.m`   : Integrates stiff differential equations using the Radau IIA method.
+
+These scripts are included here with attribution for reproducibility and completeness.
+
 
 
 ## License
