@@ -203,7 +203,7 @@ k = 1;
 
 % Time-domain Simulation
 for i = 1:Ndt
-    y = radau5(omega_gen, theta_gen, theta_load, ...
+    y = Radau5(omega_gen, theta_gen, theta_load, ...
         M_gen, D_gen, D_load, P_gen, P_load, incidence_mat, line_susceptance, dt, 14, 1E-6);
 
     if mod(i, 200) == 0
