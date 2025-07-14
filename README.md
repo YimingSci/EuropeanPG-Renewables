@@ -14,7 +14,7 @@ For power system analysis, we utilize widely adopted open-source tools, includin
 
 
 
-**Fig. 1:** *Geographic distribution of generator/load nodes in the continental European power grid. The blue data points represent the locations of generator/load nodes reported in dataset [2], which was developed in 2018 and does not include wind or solar generators. The red data points show the geographic distribution of wind and solar generators in the PSF region, based on dataset [3].*
+**Fig. S1:** *Geographic distribution of generator/load nodes in the continental European power grid. The blue data points represent the locations of generator/load nodes reported in dataset [2], which was developed in 2018 and does not include wind or solar generators. The red data points show the geographic distribution of wind and solar generators in the PSF region, based on dataset [3].*
 
 
 
@@ -22,7 +22,7 @@ For power system analysis, we utilize widely adopted open-source tools, includin
 ## Energy Mix
 
 #### Conventional power generations
-All power sources other than wind and solar are categorized as conventional generators. The types of conventional power generations involved are summarized in Table 1.
+All power sources other than wind and solar are categorized as conventional generators. The types of conventional power generations involved are summarized in Table S1.
 The parameters and geographical locations of these generators are based on dataset [2].
 
 #### Wind and solar power generations
@@ -31,21 +31,21 @@ Based on the location and generation capacity data provided in Ref. [3], a total
 
 <img width="3096" height="807" alt="图片5" src="https://github.com/user-attachments/assets/e7d3ff6c-a4a5-45a8-bb81-2b1bdd1418c8" />
 
-**Table 1:** *List of the 13 types of power sources included in the European model, along with their corresponding abbreviations.*
+**Table S1:** *List of the 13 types of power sources included in the European model, along with their corresponding abbreviations.*
 
 
-Based on data provided by the transmission system operators (TSO), Fig. 2a-c shows the power generation profiles of Portugal [5], Spain [5], and France [6] on April 28, 2025. The blackout happened around 12:32 pm (UTC+01:00). To reflect this generation mix in the simulations, we pre-adjusted the generator outputs and power flows in the PSF region so that the modeled power mix in the three countries matches the conditions observed on that date, as shown in Fig. 2d-f.
+Based on data provided by the transmission system operators (TSO), Fig. S2a-c shows the power generation profiles of Portugal [5], Spain [5], and France [6] on April 28, 2025. The blackout happened around 12:32 pm (UTC+01:00). To reflect this generation mix in the simulations, we pre-adjusted the generator outputs and power flows in the PSF region so that the modeled power mix in the three countries matches the conditions observed on that date, as shown in Fig. S2d-f.
 
 <img width="2685" height="2090" alt="Energy_mix" src="https://github.com/user-attachments/assets/8b0e53cf-fe2f-4099-b6e8-032ab95a96f3" />
 
-**Figure 2:**
+**Fig. S2:**
 *(a,b,c) Generation mix of Portugal, Spain, and France on April 28, 2025 as reported by the TSO. Portugal and Spain exhibit similar structures, with solar and wind power dominating their generation portfolios. In contrast, nuclear power constitutes the dominant source in France.
 (d,e,f) Adjusted generation mix used in the grid model for the corresponding countries.*
 
 
 ## Power Flow
 
-Under the above power flow conditions, we use the MATPOWER toolbox to solve the power-flow equation (see below) and the compute the loading stress on the transmission network (Fig. 3). The color of each transmission line represents the magnitude of power flow, while the arrows indicate its direction. 
+Under the above power flow conditions, we use the MATPOWER toolbox to solve the power-flow equation (see below) and the compute the loading stress on the transmission network (Fig. S3). The color of each transmission line represents the magnitude of power flow, while the arrows indicate its direction. 
 
 A notable observation is the reduced power transfer across the interconnections between the Iberian Peninsula and continental Europe prior to the blackout event, indicating a relatively light loading condition on these transmission corridors. To reflect this, we applied pre-adjustments to the power flow configuration, ensuring that the main power transfer was directed from Spain to France, with a net exchange of approximately 0.51 GW.
 
@@ -53,7 +53,7 @@ A notable observation is the reduced power transfer across the interconnections 
 
 <img width="1000" alt="Power_flow" src="https://github.com/user-attachments/assets/21a0563d-f616-4538-84fe-50e3bf66792b" />
 
-**Fig. 3:** *Distribution of power flows in the continental European grid.*
+**Fig. S3:** *Distribution of power flows in the continental European grid.*
 
 
 
@@ -82,20 +82,20 @@ where $$B_{ij}$$​ denotes the imaginary part of the admittance of the transmis
 
 #### Disturbance
 
-Our simulations consider six initial disturbances across the Iberian Peninsula, with their locations and magnitudes estimated from the official TSO report [7]. Details of the disturbances are provided in Table 1. The disturbances are applied to the electrical power injections at these six nodes, representing sudden power drops in the grid.
+Our simulations consider six initial disturbances across the Iberian Peninsula, with their locations and magnitudes estimated from the official TSO report [7]. Details of the disturbances are provided in Table S1. The disturbances are applied to the electrical power injections at these six nodes, representing sudden power drops in the grid.
 
 <img width="3095" height="806" alt="图片4" src="https://github.com/user-attachments/assets/864e42e9-dd0a-47b4-94cb-2000a0f2b612" />
 
-**Table 2:** *Information on the locations and power loss of the initial disturbances. More than ten power loss events are grouped into six buses based on the disturbance locations, each named after a representative city. The Bus ID indicates the bus number of the simulated disturbance node, which can be cross-referenced with the bus numbers in `PSF_renewable.mat`*
+**Table S2:** *Information on the locations and power loss of the initial disturbances. More than ten power loss events are grouped into six buses based on the disturbance locations, each named after a representative city. The Bus ID indicates the bus number of the simulated disturbance node, which can be cross-referenced with the bus numbers in `PSF_renewable.mat`*
 
 
 #### Additional mitigation plan
 
-In Ref. [1], we present two mitigation strategies to improve the system resilience against frequency fluctuations: one involves increasing the interconnection capacity between Spain and France (Fig. 2b), while the other focuses on increasing the synthetic inertia of renewable sources within the Iberian Peninsula (Fig. 2c). Here, we consider the combined implementation of both strategies and demonstrate that their joint effect leads to a significantly improved system response.
+In Ref. [1], we present two mitigation strategies to improve the system resilience against frequency fluctuations: one involves increasing the interconnection capacity between Spain and France, while the other focuses on increasing the synthetic inertia of renewable sources within the Iberian Peninsula. Here, we consider the combined implementation of both strategies and demonstrate that their joint effect leads to a significantly improved system response.
 
 ![图片3](https://github.com/user-attachments/assets/ee6b88e8-fb31-4cb5-8925-e3c99d24ade0)
 
-**Fig. 4:** *Frequency fluctuations across the Iberian Peninsula are even more suppressed when both mitigation plans are jointly applied.*
+**Fig. S4:** *Frequency fluctuations across the Iberian Peninsula are even more suppressed when both mitigation plans are jointly applied.*
 
 
 ## Usage
