@@ -1,4 +1,4 @@
-function y=radau5(omega_gen, theta_gen, theta_load, M_gen, D_gen, D_load, P_gen, P_load, incidence_mat, line_susceptance, dt, maxiter, tol)
+function y=Radau5(omega_gen, theta_gen, theta_load, M_gen, D_gen, D_load, P_gen, P_load, incidence_mat, line_susceptance, dt, maxiter, tol)
 %=========================================================
 %   For information on Radau methods, see, for instance,
 %   E. Hairer and G. Wanner, Stiff differential equations solved by Radau
