@@ -99,8 +99,8 @@ Matpower 6.0 (https://matpower.org/download/) is required for the power flow cal
 
 ## Dependency
 
-The following codes are originally reported in Ref. [2]. If you use them
-in any future work, please remember to give proper credit by citing Ref. [2].
+The following codes were used for simulations presented in Ref. [1]. If you use them
+in any future work, please provide proper credit by citing Ref. [1].
 
 - `NRsolver.m` : Solves power flow equations using the Newton-Raphson method.
 - `Radau5.m`   : Integrates stiff differential equations using the Radau IIA method.
