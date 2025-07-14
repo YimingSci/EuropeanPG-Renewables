@@ -89,6 +89,14 @@ Our simulations consider six initial disturbances across the Iberian Peninsula, 
 **Table 2:** *Information on the locations and power loss of the initial disturbances. More than ten power loss events are grouped into six buses based on the disturbance locations, each named after a representative city. The Bus ID indicates the bus number of the simulated disturbance node, which can be cross-referenced with the bus numbers in `PSF_renewable.mat`*
 
 
+#### Additional mitigation plan
+
+In Ref. [1], we present two mitigation strategies to improve the system resilience against frequency fluctuations: one involves increasing the interconnection capacity between Spain and France (Fig. 2b), while the other focuses on increasing the synthetic inertia of renewable sources within the Iberian Peninsula (Fig. 2c). Here, we consider the combined implementation of both strategies and demonstrate that their joint effect leads to a significantly improved system response.
+
+
+
+**Fig. 4:** *Frequency fluctuations across the Iberian Peninsula are even more suppressed when both mitigation plans are jointly applied.*
+
 
 ## Usage
 
