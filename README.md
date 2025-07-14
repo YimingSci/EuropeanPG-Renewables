@@ -95,6 +95,7 @@ In Ref. [1], we present two mitigation strategies to improve the system resilie
 
 ![图片2](https://github.com/user-attachments/assets/280068f6-d8fa-44f2-ab41-95f13be77db9)
 
+![图片3](https://github.com/user-attachments/assets/ee6b88e8-fb31-4cb5-8925-e3c99d24ade0)
 
 **Fig. 4:** *Frequency fluctuations across the Iberian Peninsula are even more suppressed when both mitigation plans are jointly applied.*
 
