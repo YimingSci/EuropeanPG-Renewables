@@ -47,7 +47,7 @@ Based on data provided by the transmission system operators (TSO), Fig. 2a-c sho
 
 Under the above power flow conditions, we use the MATPOWER toolbox to solve the power-flow equation (see below) and the compute the loading stress on the transmission network (Fig. 3). The color of each transmission line represents the magnitude of power flow, while the arrows indicate its direction. 
 
-A notable observation is the reduced power transfer across the interconnections between the Iberian Peninsula and continental Europe prior to the blackout event, indicating a relatively light loading condition on these transmission corridors. To reflect this condition, we performed pre-adjustments to the power flow setup, ensuring that the primary power transfer on these lines is directed from Spain to France, with a net exchange estimated at approximately 0.51 GW.
+A notable observation is the reduced power transfer across the interconnections between the Iberian Peninsula and continental Europe prior to the blackout event, indicating a relatively light loading condition on these transmission corridors. To reflect this, we applied pre-adjustments to the power flow configuration, ensuring that the main power transfer was directed from Spain to France, with a net exchange of approximately 0.51 GW.
 
 
 
