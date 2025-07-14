@@ -96,6 +96,11 @@ Our simulations consider six initial disturbances across the Iberian Peninsula, 
 
 Matpower 6.0 (https://matpower.org/download/) is required for the power flow calculation.
 
+## Dependency
+The following codes were reported in Ref. [2]. If you use this code to any future work, please do not forget to provide credit to the original authors by referencing Ref. [2].
+- `PSF_renewable.mat` : Power grid data, provided in a `mpc` format compatible with MATPOWER [4], with power flows pre-adjusted to match the generation profiles shown in Figures 2d–f.
+
+
 ## License
 
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
