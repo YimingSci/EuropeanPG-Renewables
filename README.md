@@ -79,7 +79,7 @@ Then, the power flow equations of the grid define the following algebraic constr
 
 where $$B_{ij}$$​ denotes the imaginary part of the admittance of the transmission line between nodes $$i$$ and $$j$$, and $$V_i$$  represents the voltage magnitude at node $$i$$.
 
-Finally, we consider the following equation to quantify the contributions of a set of generators $$𝒱_{gen}$$ $\mathcal{V_{gen}}$ on the system inertia [8]:
+Finally, we consider the following equation to quantify the contributions of a set of generators $$𝒱_{gen}$$ on the system inertia [8]:
 
 <img width="4624" height="483" alt="eq4" src="https://github.com/user-attachments/assets/aa56d978-b0cf-4d30-b239-5db11e74240d" />
 
