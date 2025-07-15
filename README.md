@@ -81,8 +81,7 @@ where $$B_{ij}$$​ denotes the imaginary part of the admittance of the transmis
 
 Finally, we consider the following equation to quantify the contributions of a set of generators $$V_{gen}$$ on the system inertia [8]:
 
-<img width="4624" height="482" alt="eq4" src="https://github.com/user-attachments/assets/6b4bb42c-d6f2-430e-9392-f03139900c3d" />
-
+<img width="4624" height="483" alt="eq4" src="https://github.com/user-attachments/assets/aa56d978-b0cf-4d30-b239-5db11e74240d" />
 
 
 #### Disturbance
