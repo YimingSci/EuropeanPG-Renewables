@@ -98,7 +98,8 @@ Our simulations consider six initial disturbances across the Iberian Peninsula, 
 
 In Ref. [1], we present two mitigation strategies to improve the system resilience against frequency fluctuations: one involves increasing the interconnection capacity between Spain and France, while the other focuses on increasing the synthetic inertia of renewable sources within the Iberian Peninsula. Here, we consider the combined implementation of both strategies and demonstrate that their joint effect leads to a significantly improved system response.
 
-![图片3](https://github.com/user-attachments/assets/ee6b88e8-fb31-4cb5-8925-e3c99d24ade0)
+<img width="2892" height="1527" alt="图片8" src="https://github.com/user-attachments/assets/910b6fe4-21ec-4f7f-93ec-a54fbbf8b4c9" />
+
 
 **Fig. S4:** *Frequency fluctuations across the Iberian Peninsula are even more suppressed when both mitigation plans are jointly applied.*
 
