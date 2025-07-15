@@ -73,12 +73,13 @@ The dynamics of load nodes are described by first-order equations:
 
 <img width="4624" height="206" alt="eq2" src="https://github.com/user-attachments/assets/dd48b578-ccd7-4da8-83d6-a50927187426" />
 
-Finally, the power flow equations of the grid define the following algebraic constraints on the dynamical model:
+Then, the power flow equations of the grid define the following algebraic constraints on the dynamical model:
 
 <img width="4624" height="283" alt="eq3" src="https://github.com/user-attachments/assets/34e11223-66af-477d-8d27-61a070c284f0" />
 
 where $$B_{ij}$$​ denotes the imaginary part of the admittance of the transmission line between nodes $$i$$ and $$j$$, and $$V_i$$  represents the voltage magnitude at node $$i$$.
 
+Finally, the system inertia is estimated for the above dynamic model [8]:
 
 <img width="4624" height="482" alt="eq4" src="https://github.com/user-attachments/assets/6b4bb42c-d6f2-430e-9392-f03139900c3d" />
 
