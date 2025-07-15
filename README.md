@@ -80,6 +80,10 @@ Finally, the power flow equations of the grid define the following algebraic con
 where $$B_{ij}$$​ denotes the imaginary part of the admittance of the transmission line between nodes $$i$$ and $$j$$, and $$V_i$$  represents the voltage magnitude at node $$i$$.
 
 
+<img width="4624" height="482" alt="eq4" src="https://github.com/user-attachments/assets/6b4bb42c-d6f2-430e-9392-f03139900c3d" />
+
+
+
 #### Disturbance
 
 Our simulations consider six initial disturbances across the Iberian Peninsula, with their locations and magnitudes estimated from the official TSO report [7]. Details of the disturbances are provided in Table S1. The disturbances are applied to the electrical power injections at these six nodes, representing sudden power drops in the grid.
