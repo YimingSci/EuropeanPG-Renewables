@@ -133,7 +133,7 @@ The full text of the GNU General Public License can be found in the file "LICENS
 
 ## Reference
 
- 1. Y. Wang, A. N. Montanaria, and A. E. Motter, “Rethinking the Green Power Grid,” *submitted for publication*.
+ 1. Y. Wang, A. N. Montanari, and A. E. Motter, “Rethinking the Green Power Grid,” *submitted for publication*.
  2. M. Tyloo, L. Pagnier, and P. Jacquod, “The key player problem in complex oscillator networks and electric power grids: Resistance centralities identify local vulnerabilities,” *Science Advances*, vol. 5, no. 11, eaaw8359, 2019. [https://doi.org/10.1126/sciadv.aaw8359](https://doi.org/10.1126/sciadv.aaw8359)
  3. OpenInfraMap contributors, *OpenInfraMap – Infrastructure map of the world*, 2024. [https://openinframap.org](https://openinframap.org) (accessed Jul. 3, 2025)
  4. R. D. Zimmerman, C. E. Murillo-Sánchez, and R. J. Thomas, “MATPOWER: Steady-State Operations, Planning, and Analysis Tools for Power Systems Research and Education,” *IEEE Trans. Power Syst.*, vol. 26, no. 1, pp. 12–19, 2011.   [https://doi.org/10.1109/TPWRS.2010.2051168](https://doi.org/10.1109/TPWRS.2010.2051168)
